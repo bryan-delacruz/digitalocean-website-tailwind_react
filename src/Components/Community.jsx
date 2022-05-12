@@ -52,7 +52,7 @@ const Community = () => {
         </div>
         {/* BLOCK */}
         <div class="mt-20 flex flex-col lg:flex-row gap-x-5 gap-y-5">
-          <div className="w-full lg:w-1/4" style={{ width: "25%" }}>
+          <div className="w-full lg:w-1/4">
             <PanelBlog
               image={{
                 className: "rounded-t-lg",
@@ -65,7 +65,33 @@ const Community = () => {
               visits="319k"
             />
           </div>
-          <div className="w-full lg:w-1/4" style={{ width: "25%" }}>
+          <div className="w-full lg:w-1/4">
+            <PanelBlog
+              image={{
+                className: "rounded-t-lg",
+                src: "/images/how-to-install-mysql-tutorial-image.jpg",
+                alt: "",
+              }}
+              type="Tutorial"
+              title="How To Deploy a React Application to DigitalOcean App Platform"
+              date="Julio 30, 2020"
+              visits="319k"
+            />
+          </div>
+          <div className="w-full lg:w-1/4">
+            <PanelBlog
+              image={{
+                className: "rounded-t-lg",
+                src: "/images/how-to-install-mysql-tutorial-image.jpg",
+                alt: "",
+              }}
+              type="Tutorial"
+              title="How To Deploy a React Application to DigitalOcean App Platform"
+              date="Julio 30, 2020"
+              visits="319k"
+            />
+          </div>
+          <div className="w-full lg:w-1/4">
             <PanelBlog
               image={{
                 className: "rounded-t-lg",

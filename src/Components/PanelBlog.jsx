@@ -12,7 +12,7 @@ const PanelBlog = ({ image, type, title, date, visits }) => {
         <div className="font-medium text-lg my-5">{title}</div>
         <div className="flex text-gray-500 text-sm">
           <div className="w-2/3 shrink-0">{date}</div>
-          <div className="w-1/2 flex items-center ml-6">
+          <div className="w-1/2 flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"

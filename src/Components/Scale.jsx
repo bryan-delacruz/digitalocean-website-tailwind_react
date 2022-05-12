@@ -6,7 +6,7 @@ const Scale = () => {
     <div class="lg:py-20">
       <div class="lg:mx-10 bg-gray-200 lg:rounded-lg px-8 lg:px-16 pt-16 pb-14">
         <div class="flex flex-col lg:flex-row">
-          <div class="w-full lg:w-1/2" style={{ width: "50%" }}>
+          <div class="w-full lg:w-1/2">
             <h2 className="text-4xl font-bold">Scale up with confidence</h2>
             <p className="text-lg text-gray-600 my-5 font-medium">
               Keep costs in check even when you scale your apps with affordable,
