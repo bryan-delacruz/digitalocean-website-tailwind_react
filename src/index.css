@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@font-face {
+  font-family: "CascadiaCode";
+  src: url("./fonts/CascadiaCode.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-blue {
+    @apply px-4 py-2 rounded-lg bg-do-blue-light hover:bg-do-blue-medium active:bg-do-blue-mediumDark text-white font-bold;
+  }
+
+  .panel {
+    @apply bg-white rounded-lg shadow-lg px-5 py-5;
+  }
+}
