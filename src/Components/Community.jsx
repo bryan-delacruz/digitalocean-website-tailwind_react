@@ -15,7 +15,6 @@ const Community = () => {
           </p>
           <button className="btn-blue">Explore the community</button>
         </div>
-
         <div className="flex flex-col lg:flex-row lg:px-28 mt-16 gap-y-5 gap-x-4">
           <div className="w-full lg:w-1/4">
             <div className="text-4xl font-bold text-do-blue-light text-center lg:text-left">

@@ -8,6 +8,7 @@ import Cloud from "./Components/Cloud";
 import Scale from "./Components/Scale";
 import Features from "./Components/Features";
 import Community from "./Components/Community";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -21,20 +22,7 @@ function App() {
       <Scale />
       <Features />
       <Community />
-      <div>
-        <div className="container mx-auto">
-          <div className="w-1/2">
-            <h2>Start building today</h2>
-            <p>
-              Sign up now and you'll be up and running on DigitalOcean in just
-              minutes.
-            </p>
-          </div>
-          <div className="w-1/2">
-            <button>Create your account</button>
-          </div>
-        </div>
-      </div>
+      <Footer />
     </>
   );
 }
